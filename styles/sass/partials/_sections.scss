@@ -1,0 +1,123 @@
+@use "variables" as *;
+
+// .underSea {
+//     height: 100vh;
+//     justify-content: center;
+//     align-items: center;
+//     flex-direction: column;
+//     display: flex;
+// }
+
+.discoverBox1,
+.discoverBox2 {
+    height: 50%;
+    display: flex;
+    width: 100%;
+
+    button {
+        background-color: $tertiaryColor;
+        color: $white;
+    }
+
+    div {
+        width: 50%;
+        margin: 0 30px;
+    }
+}
+
+.discoverContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.discoverImage1 {
+    position: relative;
+    top: -20px;
+    left: -30px;
+
+    img {
+        box-shadow: 45px 45px $primaryColor;
+    }
+}
+
+.discoverImage2 {
+    position: relative;
+    bottom: -47px;
+    right: -70px;
+
+    img {
+        box-shadow: -45px 45px #86e0f9;
+    }
+
+}
+
+.connections {
+    margin-top: 63px;
+    margin-bottom: 10px;
+}
+
+.connectionsSub {
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    div {
+        width: 40%;
+        padding: 35px 35px;
+    }
+}
+
+
+.profileContainer {
+    display: flex;
+
+}
+
+.monthProfile {
+    height: 60vh;
+    // display: flex;
+    // img {
+    //     border: 25px solid $primaryColor;
+    // }
+}
+
+.banner {
+    background-image: url(../under-the-sea-assets/banner.jpg);
+    height: 65vh;
+}
+
+.monthFish {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    left: -30px;
+    top: 30px;
+
+    img {
+        box-shadow: 20px 20px #86e0f9;
+    }
+
+}
+
+.monthText {
+
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    display: flex;
+    margin-left: 150px;
+
+
+}
+
+.gallery {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 45vh;
+    padding: 100px;
+
+}
