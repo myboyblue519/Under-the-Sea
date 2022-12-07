@@ -2,72 +2,90 @@
 
 
 body {
-    background-color:$tertiaryColor;
+  background-color: $tertiaryColor;
 }
+
 .blog .blogIntro .commentBox {
   max-width: 90%;
   margin: 10px auto;
-  textarea{
+
+  textarea {
     width: 90%;
   }
-  #name, #email {
+
+  #name,
+  #email {
     width: 44.4%;
     margin: 10px 0;
   }
 
 }
+
 .commentBox {
-  
-    
-    #name, #email {
-        border: none;
-        color: white;
-        display: inline-block;
-        width: 44.5%;
-        height: 20px;
-        border-bottom: 2px solid $primaryColor;
-        background-color: transparent;
-        // max-width: 90%;
-        margin: 10px auto;
-    }
-    textarea {
-        display: block;
-        width: 40%;
-        border: 2px solid $primaryColor;
-        background-color: transparent;
-        color: white;
-    }
+  padding: 50px 0;
+
+  #name,
+  #email {
+    border: none;
+    color: white;
+    display: inline-block;
+    width: 44.5%;
+    height: 20px;
+    border-bottom: 2px solid $primaryColor;
+    background-color: transparent;
+    // max-width: 90%;
+    margin: 10px auto;
   }
-  .contactSubmit {
+
+  textarea {
+    display: block;
+    width: 40%;
+    border: 2px solid $primaryColor;
+    background-color: transparent;
+    color: white;
+  }
+}
+
+.contactSubmit {
+  width: 90%;
+  height: 50px;
+  background-color: $tertiaryColor;
+  color: $white;
+}
+
+.contactComments {
+  display: flex;
+  justify-content: center;
+  background-color: $secondaryColor;
+  width: 50%;
+  position: relative;
+  top: -255px;
+  left: 30px;
+  margin: 0 63px;
+  box-shadow: -30px 25px 0px 5px $primaryColor;
+
+  .commentBox textarea {
+    display: inline;
     width: 90%;
-    height: 50px;
-    background-color: $tertiaryColor;
-    color: $white;
+    border: 2px solid #86e0f9;
+    background-color: transparent;
+    color: white;
+    resize: none;
   }
 
-  .contactComments {
-    display: flex;
-    justify-content: center;
-    background-color: $secondaryColor;
-    width: 50%;
-    position: relative;
-    top: -88px;
-    left: 30px;
-    margin: 0 63px;
-
-    .commentBox textarea {
-      display: inline;
-      width: 90%;
-      border: 2px solid #86e0f9;
-      background-color: transparent;
-      color: white;
-      resize: none;
-    }
-
-  }
+}
 
 .ourContact {
-    display: flex;
-    align-content: center;
-    justify-content: center;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.addressBox {
+  // border: 5px solid red;
+
+  // p {
+  //   margin: 1rem;
+  // }
+
 }
