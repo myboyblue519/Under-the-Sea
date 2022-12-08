@@ -319,6 +319,7 @@ h1 {
 .blog header h2 {
   font-size: 2.5rem;
   line-height: 19rem;
+  margin: 45px 85px 0 0px;
 }
 .blog main {
   display: -webkit-box;
@@ -371,15 +372,15 @@ h1 {
   position: relative;
   top: -235px;
   left: 75px;
-  -webkit-box-shadow: -30px 30px #86e0f9;
-          box-shadow: -30px 30px #86e0f9;
+  -webkit-box-shadow: -35px 35px #86e0f9;
+          box-shadow: -35px 35px #86e0f9;
   margin-bottom: -225px;
   width: 874px;
 }
 .blog .blogIntro .species {
   border-bottom: 5px solid #86e0f9;
   border-left: 5px solid #86e0f9;
-  margin-left: 45px;
+  margin-left: 40px;
   margin-top: -35px;
 }
 .blog .blogIntro .commentBox {
@@ -408,6 +409,22 @@ h1 {
   width: 90%;
   height: 50px;
   background-color: #0f614e;
+}
+.blog form button {
+  color: white;
+}
+
+.commentsPics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 20px;
+}
+.commentsPics img {
+  height: 25%;
+  width: 30%;
+  margin-top: 25px;
+  margin-right: 20px;
 }
 
 body {
