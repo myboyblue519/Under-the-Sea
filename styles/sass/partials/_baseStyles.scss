@@ -1,70 +1,93 @@
 @use "variables" as *;
 
 /* _baseStyles.scss */
-header{
-  h2{
+header {
+  h2 {
     text-align: center;
   }
 }
 
-.wrapper{
-    max-width: 1260px;
-    width: 90%;
-    margin: 0 auto;
-  }
+.wrapper {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}
 
-  body {
-    margin: 0;
-    height: 100%;
-  }
-  
-  button {
+body {
+  margin: 0;
+  height: 100%;
+}
+
+button {
+  font-size: .8rem;
+  font-weight: 100;
+  background-color: $primaryColor;
+  padding: 15px 45px;
+  border: none;
+  margin: 20px auto;
+  cursor: pointer;
+  transition: 0.3s;
+
+  &:hover {
     background-color: $primaryColor;
-    padding: 15px 45px;
-    border: none;
-    margin: 20px auto;
-    cursor: pointer;
-    transition: 0.3s;
-    &:hover {
-        background-color: $primaryColor;
-        color: $white;
-    }
-    &:focus {
-        background-color: $primaryColor;
-        color: $white;
-    }
+    color: $white;
   }
 
-  .indexMain, .connections, .monthProfile {
-    background-color: $tertiaryColor ;
+  &:focus {
+    background-color: $primaryColor;
+    color: $white;
   }
-  .discover, .gallery {
-    background-color: $secondaryColor;
-
-  }
-  
-  a {
-     color: $white;
-     text-decoration: none;
-     margin: 0 17px;
-
-    &:hover {
-        color: $primaryColor;
-    }
-    &:focus {
-        color: $primaryColor;
-    }
-    
-
-
-img {
-  max-width: 100%;
-  display: block;
-  height: auto;
 }
-// improperly nested, fix next time
 
-.fa-solid {
+.indexMain,
+.connections,
+.monthProfile {
+  background-color: $tertiaryColor ;
+}
+
+.discover,
+.gallery {
+  background-color: $secondaryColor;
+
+}
+
+a {
   color: $white;
-}
+  text-decoration: none;
+  margin: 0 17px;
+
+  &:hover {
+    color: $primaryColor;
   }
+
+  &:focus {
+    color: $primaryColor;
+  }
+
+
+
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+  }
+
+  // improperly nested, fix next time
+
+  .fa-solid {
+    color: $white;
+  }
+}
+
+.gallery {
+
+  ul {
+    display: flex;
+    justify-content: center;
+
+    li {
+      list-style: none;
+      margin: 10px;
+    }
+  }
+}

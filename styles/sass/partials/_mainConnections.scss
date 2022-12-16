@@ -1,0 +1,22 @@
+@use "variables" as *;
+
+
+.connectionsSub {
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    div {
+        width: 40%;
+        padding: 35px 35px;
+    }
+}
+
+
+.banner {
+    background-image: url(../under-the-sea-assets/banner.jpg);
+    height: 65vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

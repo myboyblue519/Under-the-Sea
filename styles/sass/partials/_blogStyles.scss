@@ -3,6 +3,10 @@
 .blog {
   background-color: $tertiaryColor;
 
+  .blogMain {
+    display: flex;
+  }
+
   header {
     height: 75vh;
 
@@ -13,21 +17,23 @@
     }
   }
 
-  main {
-    display: flex;
-  }
 
   aside {
     width: 30%;
     margin-left: 20px;
     margin-top: 40px;
 
+    // .underArticle {
+    //   margin-left: 10px;
+    // }
+
     div {
       width: 515px;
+      padding-bottom: 20px;
     }
 
     ul {
-      list-style: square;
+      list-style: circle;
     }
 
     img {
@@ -127,6 +133,7 @@
   form {
     button {
       color: white;
+
     }
   }
 }

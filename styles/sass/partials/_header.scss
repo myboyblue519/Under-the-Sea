@@ -1,11 +1,21 @@
 @use "variables" as *;
 
 header {
-    height: 90vh;
-}
+    height: 100vh;
 
-h1 {
-    padding: 0px 40px 0px 90px;
+    .underTitle {
+        display: flex;
+        justify-content: center;
+
+        h1 {
+            padding: 0px 18% 0px;
+            // width: 14%;
+            // margin-top: 70px;
+            // margin-right: 79px;
+            // margin-left: -100px;
+            // padding: 0px 40px 0px 90px;
+        }
+    }
 }
 
 .indexHeader {
@@ -18,7 +28,7 @@ h1 {
 
 .contactHeader {
     background-image: url(../under-the-sea-assets/contact-header.jpg);
-    height: 75vh;
+    height: 55vh;
 }
 
 .contactHeader,
@@ -37,7 +47,9 @@ h1 {
         // position: relative;
         // right: 0;
         // bottom: -96px;
-        width: 89%;
-        margin-top: 73px;
+        width: 65%;
+        margin-top: 5%;
     }
+
+    // margin-top: 73px;
 }
