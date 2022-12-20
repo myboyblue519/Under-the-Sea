@@ -3,6 +3,10 @@
 
 body {
   background-color: $tertiaryColor;
+
+  h2 {
+    margin: 7% 6% 0 0;
+  }
 }
 
 .blog .blogIntro .commentBox {
@@ -29,7 +33,7 @@ body {
     border: none;
     color: white;
     display: inline-block;
-    width: 49.5%;
+    width: 48.5%;
     height: 20px;
     border-bottom: 2px solid $primaryColor;
     background-color: transparent;
@@ -57,7 +61,7 @@ body {
   display: flex;
   justify-content: center;
   background-color: $secondaryColor;
-  width: 50%;
+  width: 60%;
   position: absolute;
   top: 34%;
   left: 30%;
@@ -71,6 +75,7 @@ body {
     background-color: transparent;
     color: white;
     resize: none;
+    margin-top: 5%;
   }
 
 }
@@ -80,7 +85,14 @@ body {
   align-content: center;
 
   h4 {
-    font-size: 1.1rem;
+    font-size: 1.4rem;
+    letter-spacing: 0.2rem;
+    margin: 5% auto;
+
+  }
+
+  p {
+    margin: 0;
   }
 }
 
@@ -88,5 +100,5 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
+  margin: 10% 5%;
 }

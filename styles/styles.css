@@ -122,6 +122,9 @@
       -ms-flex-pack: center;
           justify-content: center;
 }
+.connectionsSub h3 {
+  margin-bottom: 0;
+}
 .connectionsSub div {
   width: 40%;
   padding: 35px 35px;
@@ -132,6 +135,66 @@
   height: 65vh;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+.monthProfile {
+  height: 60vh;
+}
+.monthProfile .profileContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.monthProfile .profileContainer .monthFish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: relative;
+  left: -30px;
+  top: 30px;
+}
+.monthProfile .profileContainer .monthFish img {
+  -webkit-box-shadow: 20px 20px #86e0f9;
+          box-shadow: 20px 20px #86e0f9;
+}
+.monthProfile .profileContainer .monthText {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 150px;
+}
+.monthProfile .profileContainer .monthText button {
+  margin: 0;
+}
+
+.gallery {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 45vh;
+  padding: 100px;
 }
 
 @font-face {
@@ -342,87 +405,6 @@ header .underTitle h1 {
   display: flex;
 }
 
-.underSea {
-  height: 100vh;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.profileContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin: 5% auto 0;
-}
-
-.monthProfile {
-  height: 60vh;
-}
-
-.monthFish {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  position: relative;
-  left: -30px;
-  top: 30px;
-}
-.monthFish img {
-  -webkit-box-shadow: 20px 20px #86e0f9;
-          box-shadow: 20px 20px #86e0f9;
-}
-
-.monthText {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 150px;
-}
-.monthText button {
-  margin: 0;
-}
-
-.gallery {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 45vh;
-  padding: 100px;
-}
-
 .blog {
   background-color: #0c1423;
 }
@@ -541,8 +523,15 @@ header .underTitle h1 {
   margin-right: 20px;
 }
 
+.faIcons {
+  font-size: 0.8rem;
+}
+
 body {
   background-color: #0c1423;
+}
+body h2 {
+  margin: 7% 6% 0 0;
 }
 
 .blog .blogIntro .commentBox {
@@ -566,7 +555,7 @@ body {
   border: none;
   color: white;
   display: inline-block;
-  width: 49.5%;
+  width: 48.5%;
   height: 20px;
   border-bottom: 2px solid #86e0f9;
   background-color: transparent;
@@ -595,7 +584,7 @@ body {
       -ms-flex-pack: center;
           justify-content: center;
   background-color: #0f614e;
-  width: 50%;
+  width: 60%;
   position: absolute;
   top: 34%;
   left: 30%;
@@ -610,6 +599,7 @@ body {
   background-color: transparent;
   color: white;
   resize: none;
+  margin-top: 5%;
 }
 
 .ourContact {
@@ -620,7 +610,12 @@ body {
       align-content: center;
 }
 .ourContact h4 {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
+  letter-spacing: 0.2rem;
+  margin: 5% auto;
+}
+.ourContact p {
+  margin: 0;
 }
 
 .addressBox {
@@ -634,12 +629,12 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  margin: 10% 5%;
 }
 
 footer {
   background-color: #86e0f9;
   color: #000;
-  margin: 0;
   text-align: center;
 }
 footer p {
