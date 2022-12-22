@@ -461,6 +461,17 @@ header .underTitle h1 {
 .blog {
   background-color: #0c1423;
 }
+.blog aside {
+  width: 38%;
+  margin-left: 3%;
+  margin-top: 1%;
+}
+.blog aside img {
+  position: relative;
+  top: 1px;
+  left: -20px;
+  width: 100%;
+}
 .blog .blogMain {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -471,73 +482,79 @@ header .underTitle h1 {
 }
 .blog header h2 {
   font-size: 2.5rem;
-  line-height: 19rem;
-  margin: 45px 85px 0 0px;
+  line-height: 1rem;
+  margin: 3% 4% 0 0px;
 }
-.blog aside {
-  width: 30%;
-  margin-left: 20px;
-  margin-top: 40px;
-}
-.blog aside div {
-  width: 515px;
+.blog div {
+  width: 100%;
   padding-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
-.blog aside ul {
+.blog div ul {
   list-style: circle;
 }
-.blog aside img {
-  position: relative;
-  top: 1px;
-  left: -20px;
-}
-.blog aside div {
+
+div {
   background-color: #0f614e;
 }
-.blog .blogIntro {
+
+.blogIntro {
   width: 60%;
-  margin-left: 105px;
+  margin-left: 8 .blogIntro;
   margin-top: 40px;
 }
-.blog .blogIntro .explaination .discoverSpeciesDate {
-  margin: 55px 35px;
+.blogIntro .explaination .discoverSpeciesDate .blog .blogIntro .explaination .discoverSpeciesDate {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+  margin-right: 14%;
 }
-.blog .blogIntro .explaination .discoverSpeciesDate h2 {
+.blogIntro .explaination .discoverSpeciesDate h2 {
   font-size: 2.3rem;
   margin: 0;
 }
-.blog .blogIntro .explaination .discoverSpeciesDate p {
+.blogIntro .explaination .discoverSpeciesDate p {
   margin: 0;
 }
-.blog .blogIntro .explaination p {
+.blogIntro .explaination p {
   margin-left: 35px;
 }
-.blog .blogIntro h4 {
+.blogIntro h4 {
   font-size: 1.7rem;
   letter-spacing: 0rem;
   margin: 1.4rem auto;
 }
-.blog .blogIntro .heroImage {
+.blogIntro .heroImage {
   position: relative;
-  top: -235px;
-  left: 75px;
+  top: -14%;
+  left: 0%;
   -webkit-box-shadow: -35px 35px #86e0f9;
           box-shadow: -35px 35px #86e0f9;
   margin-bottom: -225px;
-  width: 874px;
+  width: 100%;
 }
-.blog .blogIntro .species {
+
+.species {
   border-bottom: 5px solid #86e0f9;
   border-left: 5px solid #86e0f9;
-  margin-left: 40px;
-  margin-top: -35px;
+  margin-left: 2%;
+  margin-top: -2%;
+  margin-left: 2.2%;
+  margin-right: 10%;
 }
-.blog .blogIntro .commentBox {
+
+.commentBox {
   max-width: 60%;
   margin: 10px auto;
 }
-.blog .blogIntro .commentBox #name,
-.blog .blogIntro .commentBox #email {
+.commentBox #name,
+.commentBox #email {
   border: none;
   color: white;
   display: inline-block;
@@ -546,7 +563,7 @@ header .underTitle h1 {
   border-bottom: 2px solid #86e0f9;
   background-color: transparent;
 }
-.blog .blogIntro .commentBox textarea {
+.commentBox textarea {
   resize: none;
   display: block;
   width: 50%;
@@ -554,12 +571,14 @@ header .underTitle h1 {
   background-color: transparent;
   color: white;
 }
-.blog .blogIntro .blogSubmit {
+
+.blogSubmit {
   width: 90%;
   height: 50px;
   background-color: #0f614e;
 }
-.blog form button {
+
+form button {
   color: white;
 }
 
