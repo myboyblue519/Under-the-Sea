@@ -5,15 +5,11 @@ header {
 
     .underTitle {
         display: flex;
-        justify-content: center;
 
         h1 {
+            font-size: 6rem;
             padding: 0px 18% 0px;
-            // width: 14%;
-            // margin-top: 70px;
-            // margin-right: 79px;
-            // margin-left: -100px;
-            // padding: 0px 40px 0px 90px;
+
         }
     }
 }
@@ -41,15 +37,30 @@ header {
 
 .headerContent {
     display: flex;
-    position: absolute;
+    justify-content: flex-end;
 
     img {
-        // position: relative;
-        // right: 0;
-        // bottom: -96px;
-        width: 65%;
+        width: 80%;
         margin-top: 5%;
     }
 
-    // margin-top: 73px;
+}
+
+
+@media (min-width: 1600px) {
+    h1 {
+        border: 5px solid rebeccapurple;
+    }
+}
+
+@media (min-width: 1900px) {
+    h1 {
+        border: 5px solid green;
+    }
+}
+
+@media (min-width: 2200px) {
+    h1 {
+        border: 5px solid blue;
+    }
 }

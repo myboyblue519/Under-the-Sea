@@ -2,7 +2,7 @@
 
 
 .monthProfile {
-    height: 60vh;
+    height: 70vh;
     // display: flex;
     // img {
     //     border: 25px solid $primaryColor;
@@ -10,6 +10,8 @@
 
     .profileContainer {
         display: flex;
+        align-items: center;
+        justify-content: center;
 
         .monthFish {
             display: flex;

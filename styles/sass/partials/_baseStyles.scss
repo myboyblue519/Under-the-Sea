@@ -8,8 +8,8 @@ header {
 }
 
 .wrapper {
-  max-width: 1200px;
-  width: 90%;
+  // max-width: 1200px;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -79,15 +79,43 @@ a {
   }
 }
 
-.gallery {
+html {
+  font-size: 125%;
+}
 
-  ul {
-    display: flex;
-    justify-content: center;
+body {
+  font-family: $bodyFont;
+  font-size: .8rem;
+  color: $white;
+}
 
-    li {
-      list-style: none;
-      margin: 10px;
-    }
-  }
+h1,
+h2,
+h3,
+h4,
+nav,
+button {
+  font-family: $headingFont;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  letter-spacing: .5rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  letter-spacing: .5rem;
 }

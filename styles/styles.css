@@ -1,259 +1,10 @@
-.indexMain {
-  height: 80vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.indexMain .whatIsUnder {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-.indexMain h2 {
-  margin-bottom: 0;
-  font-size: 2rem;
-}
-
-.discoverBox1,
-.discoverBox2 {
-  height: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-}
-.discoverBox1 button,
-.discoverBox2 button {
-  background-color: #0c1423;
-  color: #fff;
-}
-.discoverBox1 div,
-.discoverBox2 div {
-  width: 43.6%;
-}
-
-.discoverContent,
-.discoverContent2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  margin: auto 10%;
-}
-.discoverContent button,
-.discoverContent2 button {
-  margin: 0;
-}
-
-.discoverContent2 {
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end;
-}
-.discoverContent2 p {
-  text-align: right;
-}
-
-.discoverImage1 {
-  position: relative;
-  bottom: 35px;
-  left: 0%;
-}
-.discoverImage1 img {
-  -webkit-box-shadow: 35px 35px #86e0f9;
-          box-shadow: 35px 35px #86e0f9;
-}
-
-.discoverImage2 {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  position: relative;
-  top: 35px;
-  right: 0%;
-  -webkit-box-shadow: -35px 35px #86e0f9;
-          box-shadow: -35px 35px #86e0f9;
-}
-
-.connections {
-  margin-top: 63px;
-  margin-bottom: 10px;
-}
-
-.connectionsSub {
-  height: 85vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-.connectionsSub h3 {
-  margin-bottom: 0;
-}
-.connectionsSub div {
-  width: 40%;
-  padding: 35px 35px;
-}
-
-.banner {
-  background-image: url(../under-the-sea-assets/banner.jpg);
-  height: 65vh;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.monthProfile {
-  height: 60vh;
-}
-.monthProfile .profileContainer {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-.monthProfile .profileContainer .monthFish {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -ms-flex-line-pack: center;
-      align-content: center;
-  position: relative;
-  left: -30px;
-  top: 30px;
-}
-.monthProfile .profileContainer .monthFish img {
-  -webkit-box-shadow: 20px 20px #86e0f9;
-          box-shadow: 20px 20px #86e0f9;
-}
-.monthProfile .profileContainer .monthText {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  width: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 150px;
-}
-.monthProfile .profileContainer .monthText button {
-  margin: 0;
-}
-
-.gallery {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  height: 45vh;
-  padding: 100px;
-}
-
-@font-face {
-  font-family: Barlow;
-  src: url("../fonts/Barlow/Barlow-Bold.ttf");
-}
-@font-face {
-  font-family: Lato;
-  src: url("../fonts/Lato/Lato-Regular.ttf");
-}
-html {
-  font-size: 125%;
-}
-
-body {
-  font-family: "Lato";
-  font-size: 1rem;
-  color: #fff;
-}
-
-h1,
-h2,
-h3,
-h4,
-nav,
-button {
-  font-family: "Barlow";
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
-}
-
-h2 {
-  font-size: 3rem;
-  line-height: 4.5rem;
-}
-
-h3 {
-  font-size: 2.1rem;
-  letter-spacing: 0.5rem;
-}
-
-h4 {
-  font-size: 1.6rem;
-  letter-spacing: 0.5rem;
-}
-
 /* _baseStyles.scss */
 header h2 {
   text-align: center;
 }
 
 .wrapper {
-  max-width: 1200px;
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -313,6 +64,267 @@ a .fa-solid {
   color: #fff;
 }
 
+html {
+  font-size: 125%;
+}
+
+body {
+  font-family: "Lato";
+  font-size: 0.8rem;
+  color: #fff;
+}
+
+h1,
+h2,
+h3,
+h4,
+nav,
+button {
+  font-family: "Barlow";
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 6rem;
+  line-height: 5.5rem;
+}
+
+h2 {
+  font-size: 3rem;
+  line-height: 4.5rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+  letter-spacing: 0.5rem;
+}
+
+h4 {
+  font-size: 1.6rem;
+  letter-spacing: 0.5rem;
+}
+
+.indexMain {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.indexMain .whatIsUnder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.indexMain h2 {
+  margin-bottom: 0;
+  font-size: 2rem;
+}
+
+.discover {
+  height: 120vh;
+}
+.discover .discoverBox1,
+.discover .discoverBox2 {
+  height: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+.discover .discoverBox1 button,
+.discover .discoverBox2 button {
+  background-color: #0c1423;
+  color: #fff;
+}
+.discover .discoverBox1 div,
+.discover .discoverBox2 div {
+  width: 43.6%;
+}
+.discover .discoverContent,
+.discover .discoverContent2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+.discover .discoverContent button,
+.discover .discoverContent2 button {
+  margin: 0;
+}
+.discover .discoverContent {
+  margin: auto 5% auto 13%;
+}
+.discover .discoverContent2 {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  margin: auto 13% auto 5%;
+}
+.discover .discoverContent2 p {
+  text-align: right;
+}
+.discover .discoverImage1 {
+  position: relative;
+  bottom: 35px;
+  left: 0%;
+  -webkit-box-shadow: 35px 35px #86e0f9;
+          box-shadow: 35px 35px #86e0f9;
+}
+.discover .discoverImage2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  top: 35px;
+  right: 0%;
+  -webkit-box-shadow: -35px 35px #86e0f9;
+          box-shadow: -35px 35px #86e0f9;
+}
+.discover .connections {
+  margin-top: 63px;
+  margin-bottom: 10px;
+}
+@media (min-width: 1600px) {
+  .discover html {
+    font-size: 130%;
+  }
+}
+@media (min-width: 1900px) {
+  .discover html {
+    font-size: 140%;
+  }
+}
+@media (min-width: 2200px) {
+  .discover html {
+    font-size: 150%;
+  }
+}
+
+.connectionsSub {
+  height: 85vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.connectionsSub h3 {
+  margin-bottom: 0;
+}
+.connectionsSub div {
+  width: 40%;
+  padding: 5% 5%;
+}
+
+.banner {
+  background-image: url(../under-the-sea-assets/banner.jpg);
+  height: 65vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (min-width: 2200px) {
+  .connections .connectionsSub {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.monthProfile {
+  height: 70vh;
+}
+.monthProfile .profileContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.monthProfile .profileContainer .monthFish {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  position: relative;
+  left: -30px;
+  top: 30px;
+}
+.monthProfile .profileContainer .monthFish img {
+  -webkit-box-shadow: 20px 20px #86e0f9;
+          box-shadow: 20px 20px #86e0f9;
+}
+.monthProfile .profileContainer .monthText {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 150px;
+}
+.monthProfile .profileContainer .monthText button {
+  margin: 0;
+}
+
+.gallery {
+  height: 80vh;
+}
 .gallery ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -320,12 +332,35 @@ a .fa-solid {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  width: 100%;
+  height: 100%;
 }
-.gallery ul li {
+.gallery li {
   list-style: none;
-  margin: 10px;
+  margin: auto 5%;
+}
+.gallery li img {
+  width: 100%;
 }
 
+@media (min-width: 1600px) {
+  .gallery li img {
+    width: 100%;
+  }
+}
+@media (min-width: 1900px) {
+  .gallery li img {
+    width: 135%;
+  }
+}
+@media (min-width: 2200px) {
+  .gallery {
+    height: 55vh;
+  }
+  .gallery li img {
+    width: 155%;
+  }
+}
 header {
   height: 100vh;
 }
@@ -333,11 +368,9 @@ header .underTitle {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 header .underTitle h1 {
+  font-size: 6rem;
   padding: 0px 18% 0px;
 }
 
@@ -365,13 +398,30 @@ header .underTitle h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 .headerContent img {
-  width: 65%;
+  width: 80%;
   margin-top: 5%;
 }
 
+@media (min-width: 1600px) {
+  h1 {
+    border: 5px solid rebeccapurple;
+  }
+}
+@media (min-width: 1900px) {
+  h1 {
+    border: 5px solid green;
+  }
+}
+@media (min-width: 2200px) {
+  h1 {
+    border: 5px solid blue;
+  }
+}
 .navBar {
   height: 15%;
   z-index: 10;
@@ -385,6 +435,9 @@ header .underTitle h1 {
 }
 .navBar li {
   list-style: none;
+}
+.navBar li a {
+  font-size: 1rem;
 }
 
 .toggleButton {
@@ -641,174 +694,35 @@ footer p {
   margin: 0;
 }
 
-@media (max-width: 1250px) {
-  .discoverBox1,
-.profileContainer,
-.gallery,
-.monthProfile,
-.underSea,
-.discoverBox2 {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: auto;
-  }
-  .ourContact {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
-  }
-  .goldfish,
-.heroImage {
-    display: none;
-  }
-  .connectionsSub {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    height: auto;
-  }
-  .banner {
-    height: 50vh;
-  }
-  h1 {
-    font-size: 4rem;
-  }
-  h2 {
-    font-size: 3rem;
-  }
-  body {
-    width: 100%;
-  }
-  header {
-    height: 50vh;
-  }
-  .discoverImage1 {
-    position: relative;
-    top: 0px;
-    left: -30px;
-  }
-  .contactComments {
-    width: 100%;
-    position: unset;
-    padding: 0 0px 0 45px;
-  }
-  .ourContact {
-    margin: 0 20%;
-  }
-  .blog header {
-    height: 35vh;
-  }
-  aside img {
-    display: none;
-  }
-}
-@media (max-width: 650px) {
-  .blog main {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  .blog aside {
-    width: 90%;
-  }
-  h2 {
-    font-size: 2.7rem;
-  }
-  .contactComments {
-    margin: 5px auto;
-    padding: 0px 0px 0 36px;
-  }
-}
-@media (max-width: 450px) {
-  .monthText {
-    margin-left: 0;
-  }
-  h1 {
-    line-height: 3rem;
-    font-size: 3.2rem;
-    padding: 0;
-  }
-  h2 {
-    font-size: 2.4rem;
-    line-height: 2.5rem;
-  }
-  h3 {
-    font-size: 1.6rem;
-    letter-spacing: 0.2rem;
-  }
-  h4 {
-    font-size: 1.2rem;
-    letter-spacing: 0.4rem;
-  }
-  .connectionsSub div {
-    width: 100%;
-    padding: 35px 35px;
-  }
-  .discoverBox1 div,
-.discoverBox2 div {
-    width: 100%;
-    margin: 0;
-  }
-  .discoverImage1,
-.discoverImage2 {
-    width: 100%;
-    display: block;
-    height: auto;
-    position: unset;
-  }
-  .blog .blogIntro {
-    width: 75%;
-    margin-left: 45px;
-    margin-top: 15px;
-  }
-  a {
-    margin: 0 5px;
-  }
-  .monthFish img,
-.discoverImage1 img,
-.discoverImage2 img {
-    -webkit-box-shadow: none;
-            box-shadow: none;
-  }
-  .toggleButton {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .navBarLinks {
-    display: none;
-    width: 100%;
-  }
-  .navBarLinks ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    width: 100%;
-  }
-  .navBarLinks li {
-    text-align: center;
-  }
-  .navBarLinks.active {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  .navBar {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
-  }
-}
 .fa-brands, .fa-solid {
   margin: 0 10px;
+}
+
+@font-face {
+  font-family: Barlow;
+  src: url("../fonts/Barlow/Barlow-Bold.ttf");
+}
+@font-face {
+  font-family: Lato;
+  src: url("../fonts/Lato/Lato-Regular.ttf");
+}
+@media (min-width: 1300px) {
+  html {
+    font-size: 120%;
+  }
+}
+@media (min-width: 1600px) {
+  html {
+    font-size: 130%;
+  }
+}
+@media (min-width: 1900px) {
+  html {
+    font-size: 140%;
+  }
+}
+@media (min-width: 2200px) {
+  html {
+    font-size: 200%;
+  }
 }

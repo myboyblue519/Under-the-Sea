@@ -11,45 +11,27 @@
 }
 
 
-
-
-html {
-  font-size: 125%;
+@media (min-width: 1300px) {
+  html {
+    font-size: 120%;
+  }
 }
 
-body {
-  font-family: $bodyFont;
-  font-size: 1rem;
-  color: $white;
+@media (min-width: 1600px) {
+  html {
+    font-size: 130%;
+  }
 }
 
-h1,
-h2,
-h3,
-h4,
-nav,
-button {
-  font-family: $headingFont;
-  font-weight: bold;
-  text-transform: uppercase;
+@media (min-width: 1900px) {
+  html {
+    font-size: 140%;
+  }
 }
 
-h1 {
-  font-size: 6rem;
-  line-height: 5.5rem;
-}
 
-h2 {
-  font-size: 3rem;
-  line-height: 4.5rem;
-}
-
-h3 {
-  font-size: 2.1rem;
-  letter-spacing: .5rem;
-}
-
-h4 {
-  font-size: 1.6rem;
-  letter-spacing: .5rem;
+@media (min-width: 2200px) {
+  html {
+    font-size: 200%;
+  }
 }
